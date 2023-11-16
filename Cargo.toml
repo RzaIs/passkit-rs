@@ -1,0 +1,10 @@
+[package]
+name = "passkit"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+webauthn-rs-core = "0.4.8"
+webauthn-rs = { version = "0.4.8", features = ["danger-allow-state-serialisation"]}
